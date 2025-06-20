@@ -42,7 +42,7 @@ def preprocess(text):
     return ' '.join(tokens)
 
 # UI Streamlit
-st.title("📊 Analisis Sentimen Review Aplikasi 🇮🇩")
+st.title("Analisis Sentimen Aplikasi PORSI Siti Hajar")
 st.markdown("Masukkan review aplikasi dan dapatkan **prediksi sentimen otomatis**.")
 
 user_input = st.text_area("📝 Masukkan teks review:", "")
